@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Territory .io - Official Game Site</title>
+  <style>
+    :root {
+      --primary: #1c2a8c;
+      --accent: #ffd23f;
+      --bg: #0f172a;
+      --text: #ffffff;
+      --card-bg: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at 50% 20%, #1e3a8a 0%, #0f172a 100%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 40px 28px;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-weight: 900;
+    }
+    p {
+      color: #cbd5e1;
+      font-size: 16px;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+    .badge {
+      display: inline-block;
+      background: #2563eb;
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .btn {
+      display: block;
+      background: #ffffff;
+      color: #0f172a;
+      padding: 12px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .btn:hover {
+      background: var(--accent);
+      transform: translateY(-2px);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.15);
+      color: #ffffff;
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+    footer {
+      margin-top: 28px;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Casual Arcade .io Game</div>
+    <h1>My Territory .io</h1>
+    <p>Draw trails, capture land, outsmart rivals, and conquer 100% of the territory! Available on Android Google Play.</p>
+    
+    <div class="links">
+      <a class="btn" href="privacy-policy.html">📄 Privacy Policy</a>
+      <a class="btn btn-secondary" href="app-ads.txt" target="_blank">📋 app-ads.txt</a>
+    </div>
+
+    <footer>
+      Developer: Mahesh Ghoslya<br>
+      Contact: <a href="mailto:maheshgoslya18@gmail.com" style="color: #60a5fa;">maheshgoslya18@gmail.com</a>
+    </footer>
+  </div>
+</body>
+</html>
